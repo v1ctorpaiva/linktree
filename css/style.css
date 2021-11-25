@@ -30,9 +30,10 @@ h2 {
 
 .avatar {
     width: 140px;
-    border-radius: 50%;
-    border: 2px solid white;
-    box-shadow: 0 0 10px white;
+    border-radius: 25%;
+    border: 0px solid white;
+    /* box-shadow: 0 0 100px rgb(238, 238, 232, 0.2); */
+    box-shadow: 0 0 100px rgba(23,23,21,0.8);
 }
 
 .profile {
@@ -48,11 +49,8 @@ h2 {
     display: flex;
     justify-content: space-evenly;
     list-style: none;
-    
     /* top, right, bottom, left */
     margin: 30px 30% 30px 30%;
-    /* margin-left: 30%;
-    margin-right: 30%; */
 }
 
 .social img {   
